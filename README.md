@@ -19,8 +19,3 @@ Now go into the discord developer portal where you have hopefully set up a bot i
 Paste the TOKEN into the specified field in the .env file. If there is no .env file, make a file named `.env` and type: `TOKEN=`, then put the token right next to the equals (=) sign, no brackets, apostrophes or spaces.
 
 Now run main.py
-
-# Test this current version of the bot
-
-Test here: https://discord.gg/JdBeA7mW
-
