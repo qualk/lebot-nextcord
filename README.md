@@ -16,11 +16,8 @@ On Windows:
 ```
 
 Now go into the discord developer portal where you have hopefully set up a bot if you followed the instructions to watch a YouTube video about discord.py and get the TOKEN from there.
-Paste the TOKEN into the specified field in the .env file
+Make a file named .env and type: `TOKEN=put token here, do not put apostrophe or brackets`
 
 Now run main.py
 
-# Test this current version of the bot
-
-Test here: https://discord.gg/JdBeA7mW
-
+Happy goofing around!
