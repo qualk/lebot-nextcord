@@ -122,3 +122,6 @@ TEST-**.xml
 
 # environment variables
 .env
+
+# personal modules
+.personal/

@@ -2,7 +2,6 @@ import nextcord
 from nextcord import Interaction, slash_command
 from nextcord.ext.commands import Bot, Cog
 
-
 class When(Cog):
     def __init__(self, bot: Bot) -> None:
         self.bot = bot
