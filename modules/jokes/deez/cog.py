@@ -6,7 +6,7 @@ class Deez(Cog):
     def __init__(self, bot: Bot) -> None:
         self.bot = bot
 
-    @slash_command(name="deez", description="You know what it replies with...", guild_ids=[1046702726886735935, 1005944053038321826])
+    @slash_command(name="deez", description="You know what it replies with...", guild_ids=[1046702726886735935, 1005944053038321826, 941837967654256701])
     async def deez(self, inter: Interaction) -> None:
         await inter.send("nuts!")
         

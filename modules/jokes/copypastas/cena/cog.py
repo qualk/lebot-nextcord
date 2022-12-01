@@ -8,7 +8,7 @@ class Cena(Cog):
     def __init__(self, bot: Bot) -> None:
         self.bot = bot
 
-    @slash_command(name="cena", description="Replies with the John Cena ice-cream copypasta.", guild_ids=[1046702726886735935, 1005944053038321826])
+    @slash_command(name="cena", description="Replies with the John Cena ice-cream copypasta.", guild_ids=[1046702726886735935, 1005944053038321826, 941837967654256701])
     async def cena(self, inter: Interaction) -> None:
         await inter.send(cena, files=[nextcord.File("D:\\home\\Documents\\GitHub\\lebot-nextcord\\assets\\images\\cena.jpg")])
         
