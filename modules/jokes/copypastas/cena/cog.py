@@ -1,3 +1,4 @@
+import nextcord
 from nextcord import Interaction, slash_command
 from nextcord.ext.commands import Bot, Cog
 
@@ -9,7 +10,7 @@ class Cena(Cog):
 
     @slash_command(name="cena", description="Replies with the John Cena ice-cream copypasta.", guild_ids=[1046702726886735935, 1005944053038321826])
     async def cena(self, inter: Interaction) -> None:
-        await inter.send(cena)
+        await inter.send(cena, files=[nextcord.File("D:\\home\\Documents\\GitHub\\lebot-nextcord\\assets\\images\\cena.jpg")])
         
 #    @cena.event
 #    async def on_message(message):
